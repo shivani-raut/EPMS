@@ -12,15 +12,24 @@ create or replace procedure leave_apply
 is
 leaveamt timesheet.LEAVE_DEDUCTED_AMOUNT%type;
 BEGIN
-if typeofleave='%casual%' and to_date(leaveenddate,'dd-mm-yyyy') - to_date(leavestartdate,'dd-mm-yyyy') >10 then 
-leaveamt := 200;
+if typeofleave='casual' and to_date(leaveenddate,'dd-mm-yyyy') - to_date(leavestartdate,'dd-mm-yyyy') >10 then 
+    leaveamt := 200;
+    dbms_output.put_line('Leave Type => '||typeofleave);
+    dbms_output.put_line('No of days on leave => '||(to_date(leaveenddate,'dd-mm-yyyy') - to_date(leavestartdate,'dd-mm-yyyy')));
+    dbms_output.put_line('Deducted Amount => '||leaveamt);
 elsif typeofleave='%casual%' and to_date(leaveenddate,'dd-mm-yyyy') - to_date(leavestartdate,'dd-mm-yyyy') <10 then 
-leaveamt := 0;
+    leaveamt := 0;
+    dbms_output.put_line('Leave Type => '||typeofleave);
+    dbms_output.put_line('No of days on leave => '||(to_date(leaveenddate,'dd-mm-yyyy') - to_date(leavestartdate,'dd-mm-yyyy')));
+    dbms_output.put_line('Deducted Amount => '||leaveamt);
 else  
-leaveamt := 0;
+    leaveamt := 0;
+    dbms_output.put_line('Leave Type => '||typeofleave);
+    dbms_output.put_line('No of days on leave => '||(to_date(leaveenddate,'dd-mm-yyyy') - to_date(leavestartdate,'dd-mm-yyyy')));
+    dbms_output.put_line('Deducted Amount => '||leaveamt);
 end if;
 insert into timesheet values(sqle.nextval,employeeid,leavestartdate,leaveenddate,typeofleave,leaveamt);
 END;
 /
 
-exec leave_apply(101,to_date('04-07-2022','dd-mm-yyyy'),to_date('06-07-2022','dd-mm-yyyy'),'sick');
+exec leave_apply(102,to_date('09-10-2022','dd-mm-yyyy'),to_date('20-10-2022','dd-mm-yyyy'),'casual');

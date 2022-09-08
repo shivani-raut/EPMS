@@ -185,7 +185,10 @@ ALTER TABLE payroll
     ADD CONSTRAINT payroll_bank_details_fk FOREIGN KEY ( bank_details_acc_no )
         REFERENCES bank_details ( acc_no )
     NOT DEFERRABLE;
-
+    
+create table Employee_Profile
+    (Empid NUMBER(10,0),Resume CLOB,Profile_pic Blob,
+    constraint employee_Profile_fk foreign key(empid) references Employee(empid));
 
 
 -- Oracle SQL Developer Data Modeler Summary Report: 

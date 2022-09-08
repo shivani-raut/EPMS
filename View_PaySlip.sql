@@ -1,4 +1,5 @@
-exec View_PaySlip(101,'March','2022');
+exec View_PaySlip(100,'September','2022');
+set serveroutput on;
 create or replace Procedure View_PaySlip(lv_empid employee.empid%type,lv_month varchar,lv_year varchar)
 is
     lv_emp_net_salary payroll.emp_net_salary%type;

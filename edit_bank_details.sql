@@ -29,4 +29,6 @@ begin
 END  Edit_Bank_Details; 
 /
 
+exec Edit_Bank_Details(102);
+exec Edit_Bank_Details(103);
 

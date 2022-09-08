@@ -1,0 +1,4 @@
+USERID=epms_dev/1234
+CONTROL=control.ctl
+ERRORS=9999
+LOG=sqlldr.log

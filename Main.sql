@@ -1,8 +1,8 @@
 set serveroutput on;
 declare
     choice number;
-    lv_empid employee.empid%type;
-    lv_password login.password%type;
+    lv_empid employee.empid%type:=100;
+    lv_password login.password%type := 'steve100';
     lv_result varchar(10);
 begin
     lv_empid := &EmployeeId;

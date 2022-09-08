@@ -1,4 +1,4 @@
-exec deduction_addition(102,'ppf');
+exec deduction_addition(103,'ppf');
 CREATE OR REPLACE PROCEDURE  deduction_addition
     (empid in EMPLOYEE.EMPID%TYPE,ATYPE in DEDUCTION.TYPE%TYPE)
 IS
@@ -8,6 +8,8 @@ IS
     DED_ID DEDUCTION.DEDUCTID%TYPE;
 BEGIN
     OPEN CUR;
+    dbms_output.put_line('TYPES OF DEDUCTIONS');
+    dbms_output.put_line('------------------------------');
     LOOP
     FETCH CUR INTO VAR;
     EXIT WHEN CUR%NOTFOUND;
@@ -16,6 +18,8 @@ BEGIN
     CLOSE CUR;
     SELECT DEDUCTID INTO DED_ID FROM DEDUCTION WHERE TYPE =ATYPE ;
     D_AMOUNT := DEDUCTION_AMOUNT(ATYPE);
+    dbms_output.put_line('------------------------------');
+    dbms_output.put_line(''||upper(ATYPE)||' deduction with employee id '||EMPID||' has been added to the Employee Deduction Table');
     INSERT INTO  employee_deduction VALUES(EMPID,DED_ID,D_AMOUNT);
 END;
 /

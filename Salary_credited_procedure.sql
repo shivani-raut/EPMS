@@ -4,9 +4,9 @@ create sequence payid
     increment by 1
     nocycle
     nocache ;
-
-
-
+set serveroutput on;
+truncate table payroll;
+exec salary_credited;
 Create or replace PROCEDURE salary_credited
 is 
 CURSOR cur is select e.empid, basic_salary,bonus,band_pf,allow_amount,loan_deducted_amt,leave_deducted_amount,bd.acc_no 
@@ -23,13 +23,14 @@ fetch cur into cc;
 exit when cur%notfound;
 var_net_salary := cc.basic_salary + cc.bonus + nvl(cc.allow_amount,0) - (cc.band_pf + nvl(cc.loan_deducted_amt,0) + nvl(cc.leave_deducted_amount,0));
 if extract(day from sysdate)= 30 then 
+dbms_output.put_line('Salary has been credited to the employee Id => '|| cc.empid);
 Insert into payroll values (payid.nextval,cc.empid,var_net_salary,TO_date(sysdate,'DD-MM-YYYY'),cc.acc_no);
 END if;
 END LOOP;
 dbms_output.put_line('Salary Credited...');
 CLOSE cur;
 END;
+/
 
-
-
+select sysdate from dual;
 
