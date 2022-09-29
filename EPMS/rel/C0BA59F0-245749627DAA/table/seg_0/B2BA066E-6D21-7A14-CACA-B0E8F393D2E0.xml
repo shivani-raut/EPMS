@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B2BA066E-6D21-7A14-CACA-B0E8F393D2E0" name="bank_details">
+<sourceDDLFile>EPMSDDL.ddl</sourceDDLFile>
+<createdBy>shivani.raut</createdBy>
+<createdTime>2022-09-07 12:45:44 UTC</createdTime>
+<ownerDesignName>EPMS</ownerDesignName>
+<importedID>1208C2FC-4B14-B234-F2F8-4B947BFB1032</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="acc_no" id="61BC93CB-1E3E-59C3-F030-836A72166E27">
+<sourceDDLFile>EPMSDDL.ddl</sourceDDLFile>
+<createdBy>shivani.raut</createdBy>
+<createdTime>2022-09-07 12:45:44 UTC</createdTime>
+<ownerDesignName>EPMS</ownerDesignName>
+<importedID>DAD4A00E-EA37-ACAF-5ADD-5B5468259683</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CA0D951E-C14B-A54A-FF6C-6BC1D37BA4BF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bank_name" id="33AEA65F-FFE7-5056-861D-3F7F064F7741">
+<sourceDDLFile>EPMSDDL.ddl</sourceDDLFile>
+<createdBy>shivani.raut</createdBy>
+<createdTime>2022-09-07 12:45:44 UTC</createdTime>
+<ownerDesignName>EPMS</ownerDesignName>
+<importedID>14BC64AB-3184-2DE9-AA99-C7CDE208BE4D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>00C900CE-F10D-D6E1-0E1B-D6769595D499</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ifsc" id="2A1228CE-D188-5251-CDCF-E488FC5C8B07">
+<sourceDDLFile>EPMSDDL.ddl</sourceDDLFile>
+<createdBy>shivani.raut</createdBy>
+<createdTime>2022-09-07 12:45:44 UTC</createdTime>
+<ownerDesignName>EPMS</ownerDesignName>
+<importedID>76A6124D-FCC9-62C6-95B2-DF26017C45B9</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0AD2599E-1018-0D94-A421-1C59DB16C9A9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="employee_empid" id="CFA0B93F-DEEB-B531-B1B0-6A54AEFB8CE8">
+<sourceDDLFile>EPMSDDL.ddl</sourceDDLFile>
+<createdBy>shivani.raut</createdBy>
+<createdTime>2022-09-07 12:45:44 UTC</createdTime>
+<ownerDesignName>EPMS</ownerDesignName>
+<importedID>DC1E26D0-1E2F-9577-9432-113039FC37E9</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4104E009-BF6D-8B4E-DA5D-0FFEA8FC207F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9DF916F9-1100-8CB9-2B0B-4B9C7378D8D3" referredColumn="BA351596-EC4F-F0E8-3A52-550355700926"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="52C0083A-E354-F535-13F3-A449DD62BE2C" name="bank_details_pk">
+<sourceDDLFile>EPMSDDL.ddl</sourceDDLFile>
+<createdBy>shivani.raut</createdBy>
+<createdTime>2022-09-07 12:45:44 UTC</createdTime>
+<ownerDesignName>EPMS</ownerDesignName>
+<importedID>316DD65C-F6D0-8F2B-4DED-03D8359A3D2F</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61BC93CB-1E3E-59C3-F030-836A72166E27"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2D9EB64E-F24C-88FB-5B28-00A3A59AC157" name="bank_details_employee_fk">
+<createdBy>shivani.raut</createdBy>
+<createdTime>2022-09-07 12:45:44 UTC</createdTime>
+<ownerDesignName>EPMS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CFA0B93F-DEEB-B531-B1B0-6A54AEFB8CE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

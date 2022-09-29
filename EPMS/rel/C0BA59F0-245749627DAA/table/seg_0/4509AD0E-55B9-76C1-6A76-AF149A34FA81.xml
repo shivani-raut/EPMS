@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4509AD0E-55B9-76C1-6A76-AF149A34FA81" name="deduction">
+<sourceDDLFile>EPMSDDL.ddl</sourceDDLFile>
+<createdBy>shivani.raut</createdBy>
+<createdTime>2022-09-07 12:45:44 UTC</createdTime>
+<ownerDesignName>EPMS</ownerDesignName>
+<importedID>A90D36A9-A28A-AD8C-F390-9A73E2FADCA0</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="deductid" id="F4625F9F-A58F-BB41-B082-874FB343F5DD">
+<sourceDDLFile>EPMSDDL.ddl</sourceDDLFile>
+<createdBy>shivani.raut</createdBy>
+<createdTime>2022-09-07 12:45:44 UTC</createdTime>
+<ownerDesignName>EPMS</ownerDesignName>
+<importedID>1F0EC7D8-7619-8F0F-FEC4-0173680FE1B0</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4104E009-BF6D-8B4E-DA5D-0FFEA8FC207F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type" id="C976DB8B-4694-A158-2E29-0191A5B3A5C0">
+<sourceDDLFile>EPMSDDL.ddl</sourceDDLFile>
+<createdBy>shivani.raut</createdBy>
+<createdTime>2022-09-07 12:45:44 UTC</createdTime>
+<ownerDesignName>EPMS</ownerDesignName>
+<importedID>AF0EDEF6-42DF-4D96-F6A7-0AFAA4C5B8F0</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>6AD21CF0-AEC1-6BC1-F855-AF8FE889BCFB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="discription" id="1795F6EE-B685-DD8A-F14B-E14E155DEB74">
+<sourceDDLFile>EPMSDDL.ddl</sourceDDLFile>
+<createdBy>shivani.raut</createdBy>
+<createdTime>2022-09-07 12:45:44 UTC</createdTime>
+<ownerDesignName>EPMS</ownerDesignName>
+<importedID>776C2C9F-0F59-E74F-A2B2-199E81453329</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7568100A-CB02-5445-BA9A-0B74174A80F4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C4069928-4931-A05B-4D06-E9D6FF1FEE39" name="pk_deduction_deducid">
+<sourceDDLFile>EPMSDDL.ddl</sourceDDLFile>
+<createdBy>shivani.raut</createdBy>
+<createdTime>2022-09-07 12:45:44 UTC</createdTime>
+<ownerDesignName>EPMS</ownerDesignName>
+<importedID>21927EC0-FB52-353A-BC60-523BAF999EFF</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F4625F9F-A58F-BB41-B082-874FB343F5DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

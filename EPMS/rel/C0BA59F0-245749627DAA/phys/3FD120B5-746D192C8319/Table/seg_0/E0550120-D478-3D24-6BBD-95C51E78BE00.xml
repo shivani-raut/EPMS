@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="location" directorySegmentName="seg_0" id="E0550120-D478-3D24-6BBD-95C51E78BE00">
+<createdBy>shivani.raut</createdBy>
+<createdTime>2022-09-07 12:45:44 UTC</createdTime>
+<ownerDesignName>EPMS</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="state" id="8665B2B4-A01D-4A81-3ADB-1E0043CE451E">
+<createdBy>shivani.raut</createdBy>
+<createdTime>2022-09-07 12:45:44 UTC</createdTime>
+<ownerDesignName>EPMS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="country" id="944E28B3-B783-68E7-9A9B-8467AA24D4A4">
+<createdBy>shivani.raut</createdBy>
+<createdTime>2022-09-07 12:45:44 UTC</createdTime>
+<ownerDesignName>EPMS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="branch_name" id="A6319E3E-74F9-3F1B-4113-194D535AA964">
+<createdBy>shivani.raut</createdBy>
+<createdTime>2022-09-07 12:45:44 UTC</createdTime>
+<ownerDesignName>EPMS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="locationid" id="B1CA244D-2B8B-01B2-16F1-F416AF281308">
+<createdBy>shivani.raut</createdBy>
+<createdTime>2022-09-07 12:45:44 UTC</createdTime>
+<ownerDesignName>EPMS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="city" id="F0F0C184-6C71-FEA7-23A6-350C44E2BD8B">
+<createdBy>shivani.raut</createdBy>
+<createdTime>2022-09-07 12:45:44 UTC</createdTime>
+<ownerDesignName>EPMS</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="location_pk" id="CC07EE82-85BB-5385-F3B3-8693B41D129D">
+<createdBy>shivani.raut</createdBy>
+<createdTime>2022-09-07 12:45:44 UTC</createdTime>
+<ownerDesignName>EPMS</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

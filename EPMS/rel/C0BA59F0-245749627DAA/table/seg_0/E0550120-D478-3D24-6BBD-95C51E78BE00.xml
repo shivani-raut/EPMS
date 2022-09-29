@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E0550120-D478-3D24-6BBD-95C51E78BE00" name="location">
+<sourceDDLFile>EPMSDDL.ddl</sourceDDLFile>
+<createdBy>shivani.raut</createdBy>
+<createdTime>2022-09-07 12:45:44 UTC</createdTime>
+<ownerDesignName>EPMS</ownerDesignName>
+<importedID>B456C929-9280-8D8C-9652-27A83C959ED6</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="locationid" id="B1CA244D-2B8B-01B2-16F1-F416AF281308">
+<sourceDDLFile>EPMSDDL.ddl</sourceDDLFile>
+<createdBy>shivani.raut</createdBy>
+<createdTime>2022-09-07 12:45:44 UTC</createdTime>
+<ownerDesignName>EPMS</ownerDesignName>
+<importedID>1DD950F5-09F9-6AFB-E2DB-BAFA168EDD80</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0AD2599E-1018-0D94-A421-1C59DB16C9A9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="branch_name" id="A6319E3E-74F9-3F1B-4113-194D535AA964">
+<sourceDDLFile>EPMSDDL.ddl</sourceDDLFile>
+<createdBy>shivani.raut</createdBy>
+<createdTime>2022-09-07 12:45:44 UTC</createdTime>
+<ownerDesignName>EPMS</ownerDesignName>
+<importedID>BF451CE6-EEF0-4842-7431-1E9EA9201076</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>00C900CE-F10D-D6E1-0E1B-D6769595D499</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="city" id="F0F0C184-6C71-FEA7-23A6-350C44E2BD8B">
+<sourceDDLFile>EPMSDDL.ddl</sourceDDLFile>
+<createdBy>shivani.raut</createdBy>
+<createdTime>2022-09-07 12:45:44 UTC</createdTime>
+<ownerDesignName>EPMS</ownerDesignName>
+<importedID>40375DC7-5D04-B902-304D-11B801A8F8DB</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0AD2599E-1018-0D94-A421-1C59DB16C9A9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="state" id="8665B2B4-A01D-4A81-3ADB-1E0043CE451E">
+<sourceDDLFile>EPMSDDL.ddl</sourceDDLFile>
+<createdBy>shivani.raut</createdBy>
+<createdTime>2022-09-07 12:45:44 UTC</createdTime>
+<ownerDesignName>EPMS</ownerDesignName>
+<importedID>44DF7FF0-D29B-37EC-93A0-721BCDCA11CA</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>00C900CE-F10D-D6E1-0E1B-D6769595D499</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="country" id="944E28B3-B783-68E7-9A9B-8467AA24D4A4">
+<sourceDDLFile>EPMSDDL.ddl</sourceDDLFile>
+<createdBy>shivani.raut</createdBy>
+<createdTime>2022-09-07 12:45:44 UTC</createdTime>
+<ownerDesignName>EPMS</ownerDesignName>
+<importedID>D0637947-4AEC-522F-3C12-BA7604724375</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>00C900CE-F10D-D6E1-0E1B-D6769595D499</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CC07EE82-85BB-5385-F3B3-8693B41D129D" name="location_pk">
+<sourceDDLFile>EPMSDDL.ddl</sourceDDLFile>
+<createdBy>shivani.raut</createdBy>
+<createdTime>2022-09-07 12:45:44 UTC</createdTime>
+<ownerDesignName>EPMS</ownerDesignName>
+<importedID>AD8CF783-33E8-DB01-DC3E-B98D78722DEB</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1CA244D-2B8B-01B2-16F1-F416AF281308"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

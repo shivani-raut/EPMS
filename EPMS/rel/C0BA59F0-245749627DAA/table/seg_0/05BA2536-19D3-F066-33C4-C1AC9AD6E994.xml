@@ -1,0 +1,181 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="05BA2536-19D3-F066-33C4-C1AC9AD6E994" name="employee">
+<sourceDDLFile>EPMSDDL.ddl</sourceDDLFile>
+<createdBy>shivani.raut</createdBy>
+<createdTime>2022-09-07 12:45:44 UTC</createdTime>
+<ownerDesignName>EPMS</ownerDesignName>
+<importedID>D338CCDA-B9FD-E199-83ED-1C30CCEB8A1A</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="empid" id="BA351596-EC4F-F0E8-3A52-550355700926">
+<sourceDDLFile>EPMSDDL.ddl</sourceDDLFile>
+<createdBy>shivani.raut</createdBy>
+<createdTime>2022-09-07 12:45:44 UTC</createdTime>
+<ownerDesignName>EPMS</ownerDesignName>
+<importedID>A57E8BF4-33AF-2067-0B9F-C98190E99DA8</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4104E009-BF6D-8B4E-DA5D-0FFEA8FC207F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="empname" id="4DD6B065-BD11-FB3E-9267-2088CBEC5D81">
+<sourceDDLFile>EPMSDDL.ddl</sourceDDLFile>
+<createdBy>shivani.raut</createdBy>
+<createdTime>2022-09-07 12:45:44 UTC</createdTime>
+<ownerDesignName>EPMS</ownerDesignName>
+<importedID>3ABD504F-F3B2-A963-2D36-F52D44E016FC</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>6AD21CF0-AEC1-6BC1-F855-AF8FE889BCFB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gender" id="EFBE8F45-A0A1-D069-B744-AFBB1E50A969">
+<sourceDDLFile>EPMSDDL.ddl</sourceDDLFile>
+<createdBy>shivani.raut</createdBy>
+<createdTime>2022-09-07 12:45:44 UTC</createdTime>
+<ownerDesignName>EPMS</ownerDesignName>
+<importedID>34E1A7AA-E3F3-2073-0503-2CCD2FA4844E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>31F86957-E5A5-14B6-1121-657ACCBED5DC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mobilenumber" id="38D4CD3B-CF69-11BE-C08F-9281F3A5A1F7">
+<sourceDDLFile>EPMSDDL.ddl</sourceDDLFile>
+<createdBy>shivani.raut</createdBy>
+<createdTime>2022-09-07 12:45:44 UTC</createdTime>
+<ownerDesignName>EPMS</ownerDesignName>
+<importedID>8D6CA15C-2956-574C-EB54-DD68F1B095BD</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4104E009-BF6D-8B4E-DA5D-0FFEA8FC207F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="B16167F1-785E-A0CE-9CED-8C918A016676">
+<sourceDDLFile>EPMSDDL.ddl</sourceDDLFile>
+<createdBy>shivani.raut</createdBy>
+<createdTime>2022-09-07 12:45:44 UTC</createdTime>
+<ownerDesignName>EPMS</ownerDesignName>
+<importedID>FD8C80EE-5F00-8BBB-7521-12FE0B5C4AFF</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CA0D951E-C14B-A54A-FF6C-6BC1D37BA4BF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address" id="358279A4-DAB4-84F7-FEF7-9BBC54EB9EEE">
+<sourceDDLFile>EPMSDDL.ddl</sourceDDLFile>
+<createdBy>shivani.raut</createdBy>
+<createdTime>2022-09-07 12:45:44 UTC</createdTime>
+<ownerDesignName>EPMS</ownerDesignName>
+<importedID>3EDB8AC0-7FDF-EF47-55C8-93FF84DD8D8F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7568100A-CB02-5445-BA9A-0B74174A80F4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="doj" id="4251B57B-982C-F8CE-9874-32328AFB277B">
+<sourceDDLFile>EPMSDDL.ddl</sourceDDLFile>
+<createdBy>shivani.raut</createdBy>
+<createdTime>2022-09-07 12:45:44 UTC</createdTime>
+<ownerDesignName>EPMS</ownerDesignName>
+<importedID>0DC31071-C09A-5F9C-D340-2D4443DA080A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>38433E6B-DBE4-E2E0-2EDD-F73852276346</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="deptid" id="A517583B-A849-41B2-E23B-70833FA6238D">
+<sourceDDLFile>EPMSDDL.ddl</sourceDDLFile>
+<createdBy>shivani.raut</createdBy>
+<createdTime>2022-09-07 12:45:44 UTC</createdTime>
+<ownerDesignName>EPMS</ownerDesignName>
+<importedID>A20495E6-9660-A654-7663-A88ABF2680E3</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4104E009-BF6D-8B4E-DA5D-0FFEA8FC207F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="759CB809-96FB-9A40-F0C2-85247B4B1C57" referredColumn="83635552-B94A-76D7-DFE2-361B4A24D229"/>
+</associations>
+</Column>
+<Column name="bandid" id="537EA0CC-2E18-A009-0EEA-29173F0CD66F">
+<sourceDDLFile>EPMSDDL.ddl</sourceDDLFile>
+<createdBy>shivani.raut</createdBy>
+<createdTime>2022-09-07 12:45:44 UTC</createdTime>
+<ownerDesignName>EPMS</ownerDesignName>
+<importedID>6D38B318-86A8-4623-2F9C-469474A7C7B9</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4104E009-BF6D-8B4E-DA5D-0FFEA8FC207F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="272EB850-61B6-9E0B-07DA-F1F5A1180383" referredColumn="66C09AEB-CD59-042A-1C3C-05BDAF8530E8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E119A9CD-ABCD-BAFE-258C-D02A0515F5E1" name="pk_empid">
+<sourceDDLFile>EPMSDDL.ddl</sourceDDLFile>
+<createdBy>shivani.raut</createdBy>
+<createdTime>2022-09-07 12:45:44 UTC</createdTime>
+<ownerDesignName>EPMS</ownerDesignName>
+<importedID>8039E854-013B-2317-EAF0-E98EF39FECD6</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA351596-EC4F-F0E8-3A52-550355700926"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A793ED7-CEA3-4E66-661D-951C5C0BEBFD" name="employee__un">
+<sourceDDLFile>EPMSDDL.ddl</sourceDDLFile>
+<createdBy>shivani.raut</createdBy>
+<createdTime>2022-09-07 12:45:44 UTC</createdTime>
+<ownerDesignName>EPMS</ownerDesignName>
+<importedID>F8665EAA-EC9E-A8AB-79A9-09AF6EC7635C</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38D4CD3B-CF69-11BE-C08F-9281F3A5A1F7"/>
+<colUsage columnID="B16167F1-785E-A0CE-9CED-8C918A016676"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="045E04F9-48FB-021F-A582-D1A36A997F8A" name="fk_bandid">
+<createdBy>shivani.raut</createdBy>
+<createdTime>2022-09-07 12:45:45 UTC</createdTime>
+<ownerDesignName>EPMS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="537EA0CC-2E18-A009-0EEA-29173F0CD66F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D640DB30-D231-C2BF-16F2-A96D95A8BE0F" name="fk_deptid">
+<createdBy>shivani.raut</createdBy>
+<createdTime>2022-09-07 12:45:45 UTC</createdTime>
+<ownerDesignName>EPMS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A517583B-A849-41B2-E23B-70833FA6238D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

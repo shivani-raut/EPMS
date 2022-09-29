@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="employee_allowance" directorySegmentName="seg_0" id="B214E1DD-1F5E-E15C-BC63-CF8BB060FF42">
+<createdBy>shivani.raut</createdBy>
+<createdTime>2022-09-07 12:45:44 UTC</createdTime>
+<ownerDesignName>EPMS</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="allowanceid" id="0CC19E8F-C640-3084-F0D3-A3EFDA4788C7">
+<createdBy>shivani.raut</createdBy>
+<createdTime>2022-09-07 12:45:44 UTC</createdTime>
+<ownerDesignName>EPMS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="allow_amount" id="4C77EB23-C2DE-4E84-A98E-12CDDFA2F787">
+<createdBy>shivani.raut</createdBy>
+<createdTime>2022-09-07 12:45:44 UTC</createdTime>
+<ownerDesignName>EPMS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="effective_date" id="5E1B62E9-5450-BD72-CC03-EB01A81B864D">
+<createdBy>shivani.raut</createdBy>
+<createdTime>2022-09-07 12:45:44 UTC</createdTime>
+<ownerDesignName>EPMS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="empid" id="7AA7E377-DA0E-207D-61E6-FC6261FB4271">
+<createdBy>shivani.raut</createdBy>
+<createdTime>2022-09-07 12:45:44 UTC</createdTime>
+<ownerDesignName>EPMS</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="fk_empid_allow" id="54585011-8F14-AFA5-47DF-0ADB056A8755">
+<createdBy>shivani.raut</createdBy>
+<createdTime>2022-09-07 12:45:45 UTC</createdTime>
+<ownerDesignName>EPMS</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="fk_allowanceid_allow" id="75CF8725-3335-A42F-68F5-FAA1340C64B4">
+<createdBy>shivani.raut</createdBy>
+<createdTime>2022-09-07 12:45:45 UTC</createdTime>
+<ownerDesignName>EPMS</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+</TableProxyOraclev12c>

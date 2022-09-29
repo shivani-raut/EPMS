@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2FAC09B7-5B6F-6652-C9B9-3D1FFA13DE15" containerWithKeyObject="8689F573-F38B-AA96-A744-E872B585E26E" localFKIndex="95B4D816-512D-AA1B-E46A-345551D117F2" name="fk_timesheet_empid">
+<sourceDDLFile>EPMSDDL.ddl</sourceDDLFile>
+<createdBy>shivani.raut</createdBy>
+<createdTime>2022-09-07 12:45:45 UTC</createdTime>
+<ownerDesignName>EPMS</ownerDesignName>
+<importedID>20AAB009-58B1-E4DB-4D14-B6D44756ED0C</importedID>
+<referredTableLongName>employee</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>05BA2536-19D3-F066-33C4-C1AC9AD6E994</referredTableID>
+<keyObject>E119A9CD-ABCD-BAFE-258C-D02A0515F5E1</keyObject>
+<referredKeyID>E119A9CD-ABCD-BAFE-258C-D02A0515F5E1</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>empid</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

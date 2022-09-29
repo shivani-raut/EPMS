@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="272EB850-61B6-9E0B-07DA-F1F5A1180383" containerWithKeyObject="05BA2536-19D3-F066-33C4-C1AC9AD6E994" localFKIndex="045E04F9-48FB-021F-A582-D1A36A997F8A" name="fk_bandid">
+<sourceDDLFile>EPMSDDL.ddl</sourceDDLFile>
+<createdBy>shivani.raut</createdBy>
+<createdTime>2022-09-07 12:45:45 UTC</createdTime>
+<ownerDesignName>EPMS</ownerDesignName>
+<importedID>4DCDDD16-1A13-E176-7883-A2A7BDBC4487</importedID>
+<referredTableLongName>band</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>28AEB1C7-502D-6306-26B7-EE831AC0A7E7</referredTableID>
+<keyObject>DFED04E2-FEAB-2EDA-F463-3E56445B43A1</keyObject>
+<referredKeyID>DFED04E2-FEAB-2EDA-F463-3E56445B43A1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>bandid</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

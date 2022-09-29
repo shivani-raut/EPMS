@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="7B8D94AF-330B-441B-2401-C633A58753E2">
+<createdBy>shivani.raut</createdBy>
+<createdTime>2022-09-07 12:44:08 UTC</createdTime>
+<ownerDesignName>EPMS</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

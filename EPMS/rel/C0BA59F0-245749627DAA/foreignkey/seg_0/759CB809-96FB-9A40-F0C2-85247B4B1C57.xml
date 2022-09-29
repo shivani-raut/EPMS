@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="759CB809-96FB-9A40-F0C2-85247B4B1C57" containerWithKeyObject="05BA2536-19D3-F066-33C4-C1AC9AD6E994" localFKIndex="D640DB30-D231-C2BF-16F2-A96D95A8BE0F" name="fk_deptid">
+<sourceDDLFile>EPMSDDL.ddl</sourceDDLFile>
+<createdBy>shivani.raut</createdBy>
+<createdTime>2022-09-07 12:45:45 UTC</createdTime>
+<ownerDesignName>EPMS</ownerDesignName>
+<importedID>D7583116-E640-0E98-55CB-77731BD98B25</importedID>
+<referredTableLongName>department</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B8D61B32-14E8-E4E8-931D-68E705948443</referredTableID>
+<keyObject>D1C378A4-B2C1-21A1-7591-F1A81C27C230</keyObject>
+<referredKeyID>D1C378A4-B2C1-21A1-7591-F1A81C27C230</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>deptid</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

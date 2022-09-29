@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="EPMS" id="3BDE7AC1-A11B-E649-DE14-D3F515EE6E49" version="3.5">
+<createdBy>shivani.raut</createdBy>
+<createdTime>2022-09-07 12:44:07 UTC</createdTime>
+<ownerDesignName>EPMS</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>3BDE7AC1-A11B-E649-DE14-D3F515EE6E49</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="AF5436E4-CD4B-E3ED-8C93-E8AC84F30545">
+<designStoragePath>C:\EPMSDDL</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

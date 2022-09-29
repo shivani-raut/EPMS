@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="53D09193-A3DC-D231-3CAE-8D2B41FDB1ED" containerWithKeyObject="66787E69-797D-D926-62DE-9776B3535FC1" localFKIndex="8A3DCF3D-D4B6-E303-4B75-2BBC51219755" name="fk_deductid_deduct">
+<sourceDDLFile>EPMSDDL.ddl</sourceDDLFile>
+<createdBy>shivani.raut</createdBy>
+<createdTime>2022-09-07 12:45:45 UTC</createdTime>
+<ownerDesignName>EPMS</ownerDesignName>
+<importedID>58730B7F-249B-6BD7-9A5B-1F7C5C549351</importedID>
+<referredTableLongName>deduction</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4509AD0E-55B9-76C1-6A76-AF149A34FA81</referredTableID>
+<keyObject>C4069928-4931-A05B-4D06-E9D6FF1FEE39</keyObject>
+<referredKeyID>C4069928-4931-A05B-4D06-E9D6FF1FEE39</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>deductid</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

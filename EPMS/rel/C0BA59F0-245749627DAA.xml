@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="C0BA59F0-4C6F-F4FF-2763-245749627DAA" mainViewID="100DA74A-7776-F49F-8750-8D78B81E81CE">
+<createdBy>shivani.raut</createdBy>
+<createdTime>2022-09-07 12:44:11 UTC</createdTime>
+<ownerDesignName>EPMS</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>3FD120B5-9F4E-6278-D5E2-746D192C8319</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>EPMSDDL.ddl</fileName>
+<pathName>D:\gltraining\EPMS</pathName>
+<dbType>11</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>
